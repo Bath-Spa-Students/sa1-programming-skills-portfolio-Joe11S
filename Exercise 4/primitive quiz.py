@@ -130,11 +130,11 @@ else:
     print("Your answer is incorrect!")
 
     #Ask the user a question 10
-attempted_answer = input("Question 10: What is the capital of the Galactic Empire?: ").lower()
+attempted_answer = input("Question 10: What is the capital of the USA: ").lower()
 
 #Define the correct answer
 
-correct_answer = "coruscant"
+correct_answer = "washington dc"
 
 #Give a remark
 if attempted_answer == correct_answer:
