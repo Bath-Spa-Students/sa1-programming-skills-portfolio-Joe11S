@@ -1,7 +1,7 @@
 #Exercise 6 - Brute Force attack
 
 #user must input the password
-password = input("Enter your Password: ")
+password = input("Enter your Password to close the program: ")
 
 #define the correct password
 correct_password = "123456"
