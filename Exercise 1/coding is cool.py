@@ -1,3 +1,5 @@
+#Exercise 1 - Coding is Cool
+
 #list of words to be concatenated
 
 word1 = "Coding"
