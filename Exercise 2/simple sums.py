@@ -1,3 +1,5 @@
+#Exercise 2 - Simple Sums
+
 #list of variables to add
 x = 8
 y = 10
