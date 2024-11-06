@@ -22,7 +22,7 @@ months = {
 #Determine Month
 
 if month_no in months:
-    x = months[month_no]
-    print(x)
+    check = months[month_no]
+    print(check)
 else:
     print("Months cannot go below 0 or above 12")
