@@ -28,6 +28,6 @@ while attempts > 0:
             else:
                 print("Wrong Password!", str(attempts), "attempt left." )
 
-#alert authorities once attemps reach 0.
+#alert authorities once attempts reach 0.
 else:
     print("Authorities have been alerted.")
