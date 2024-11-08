@@ -11,18 +11,19 @@ attempts = 4
 
 #check the password if it's correct
 while correct_password != password:
+
+    #break this loop if there are no attempts left.
+    if attempts == 0:
+        print("Authorities have been alerted.")
+        break
+
+    #if there are more attempts, repeat this loop until the above code breaks the loop.
     print("Wrong Password!", str(attempts), "attempts left." )
-    attempts = attempts - 1
     password = input("Enter your Password: ")
     
-    #if five failed attempts have been entered, the computer exits the loop.
-    if attempts == 0:
-        break
+    #as long as least one attempt is left, the loop will decrement one attempt.
+    attempts = attempts - 1
 
 #if the user enters the correct password
 else:
     print("Correct Password!")
-
-#block of code to be executed after five failed attempts
-if attempts == 0:
-    print("Authorities have been alerted.")
