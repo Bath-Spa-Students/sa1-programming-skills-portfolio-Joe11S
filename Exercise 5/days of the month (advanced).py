@@ -45,5 +45,7 @@ if month_no in months:
     #If the month is not 2
     else:
         print(check)
+
+#a safety measure if months go below 0 or above 12
 else:
     print("Months cannot go below 0 or above 12")

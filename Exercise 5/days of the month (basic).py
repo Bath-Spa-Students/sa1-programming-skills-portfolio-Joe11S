@@ -24,5 +24,7 @@ months = {
 if month_no in months:
     check = months[month_no]
     print(check)
+
+#a safety measure if months go below 0 or above 12
 else:
     print("Months cannot go below 0 or above 12")
