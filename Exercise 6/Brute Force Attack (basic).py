@@ -10,5 +10,7 @@ correct_password = "123456"
 while correct_password != password:
     print("Wrong Password!")
     password = input("Enter your Password: ")
+
+#if the user enters the correct password
 else:
     print("Correct Password!")
