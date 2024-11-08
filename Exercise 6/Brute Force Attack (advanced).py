@@ -1,7 +1,7 @@
 #Exercise 6 - Brute Force attack
 
 #define the correct password
-correct_password = "123456"
+correct_password = "12345"
 
 #define attempts
 attempts = 5
