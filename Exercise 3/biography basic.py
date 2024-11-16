@@ -7,4 +7,5 @@ biography = {
     "Age": "19"
 }
 
+#output entries in the biography
 print(biography)
