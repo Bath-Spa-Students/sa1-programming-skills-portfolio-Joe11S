@@ -14,5 +14,3 @@ name = input("Enter Name: ")
 #Check condition
 if name == "Josh Aaron":
     Main()
-else:
-    print("Unregistered Name.")
