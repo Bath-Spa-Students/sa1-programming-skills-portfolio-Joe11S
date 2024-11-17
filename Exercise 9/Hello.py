@@ -1,16 +1,13 @@
 #Exercise 9 - Hello
 
 #Prints the hello function
-def Hello(name):
-    print("Hello,", name)
+def Hello(x):
+    print("Hello,", x)
 
 #Calls the hello function
 def Main():
+    name = input("Enter your Name: ")
     Hello(name)
 
-#Take User input
-name = input("Enter Name: ") 
-
-#Check condition
-if name == "Josh Aaron":
+if __name__ == '__main__':
     Main()
